@@ -1,0 +1,181 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+#content{
+    background-image: url("pics/career.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+.banner{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(65, 63, 63);
+}
+
+.nav ul li{
+    list-style: none;
+   display:inline-block;
+   margin:20px;
+   padding:20px 0px;
+
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+   
+   
+    
+}
+.nav ul li a:hover{
+    color:rgb(146, 79, 212);
+}
+
+
+
+
+.logo{
+    color:#fff;
+    font-size :65px;
+    padding:20px 40px;
+}
+
+.logo b{
+color:rgb(146, 79, 212);
+}
+
+.article{
+   font-size :35px;
+   color:#fff;
+   text-align: center;
+   padding:30px;
+  
+    
+}
+
+.btn{
+    padding:5px 40px;
+    font-size: 35px;
+    margin:20px 0px;
+    border-radius:25px;
+    background-color:rgb(146, 79, 212); 
+    border-style: none;
+    color:ghostwhite;
+    cursor: pointer;
+}
+
+.footer{
+    background-color:rgb(65, 63, 63);
+
+}
+
+.footer h2{
+    color:rgb(146, 79, 212);
+    padding:10px 25px;
+}
+
+.footer p{
+    color: ghostwhite;
+    padding:5px 25px;
+    font-size: 20px;
+    line-height: 35px;
+    
+}
+.btn a{
+    color:ghostwhite;
+    text-decoration: none;
+}
+
+
+.login{
+ text-align: center;
+    padding:30px 0px;
+}
+
+.login input{
+    padding:10px 40px;
+    text-align: left;
+    margin:20px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+   
+}
+.bg{
+    background-color:rgb(65, 63, 63);
+}
+
+
+.heading{
+    color:rgb(146, 79, 212);
+}
+
+.login a{
+    background-color: #fff;
+
+}
+
+.reg{
+    text-align: center;
+    padding:100px 0px;
+}
+
+
+.reg input{
+    padding:10px 40px;
+    text-align: left;
+    margin:20px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+   
+}
+
+
+.reg a{
+    background-color: #fff;
+
+}
+
+.candidate h1{
+    color:rgb(146, 79, 212);
+    padding:30px;
+}
+
+.job{
+    padding:10px 20px ;
+    margin:0px 25px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.search{
+    padding:0 40px;
+    padding-top: 30px;
+   display:flex;
+   justify-content: space-between;
+   
+}
+
+.search img{
+    width:45%;
+    
+}
+
+.search h1 p{
+    color:rgb(146, 79, 212);
+    padding-top:25px;
+    margin:10px 0px;
+}
+
+.search h1{
+    line-height: 45px;
+    color:#fff;
+}
